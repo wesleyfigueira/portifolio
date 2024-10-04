@@ -128,3 +128,31 @@ hr{
     width: 600px;
     height: auto;
 }
+
+
+/****************************projetos  ********************************************/
+
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    
+}
+
+.divprojetos{
+
+    width: 600px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 30px;
+}
+.projetos p{
+    padding: 10px;
+}
+.divprojetos:hover{
+    -webkit-transform: scale(5.2);
+    transform: scale(1.1); 
+}
