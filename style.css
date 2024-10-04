@@ -146,7 +146,6 @@ hr{
     align-items: center;
     text-align: justify;
     padding: 10px;
-    border: 1px black solid;
     margin: 30px;
 }
 .projetos p{
@@ -155,4 +154,50 @@ hr{
 .divprojetos:hover{
     -webkit-transform: scale(5.2);
     transform: scale(1.1); 
+}
+.divprojetos img{
+    border: 1px black solid;
+    border-radius: 6px;
+    height: 200px;
+    
+}
+
+/****************************contatos ********************************************/
+
+iframe{
+    border-radius: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+}
+.iframe{
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.contatosgeral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    align-items: center;
+    margin: 20px;
+
+}
+.contatos img{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.contatos:hover{
+    -webkit-transform: scale(5.2);
+    transform: scale(1.1); 
+}
+.contactMepage{
+    align-items: center;
+    text-align: center;
+    display: block;
 }
