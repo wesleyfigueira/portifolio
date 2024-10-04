@@ -38,6 +38,10 @@ a:hover{
     font-weight: bold; 
     
 }
+.me:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);  
+}
 /****************************Presentation***********************************************/
 
 .indexPage{
@@ -64,6 +68,8 @@ a:hover{
     
 
 }
+
+
 h2{
     text-align: center;
     padding: 20px;
